@@ -1,7 +1,5 @@
 import org.asl.karelx.Farmer;
-	
-	import edu.fcps.karel2.Display;
-	
+import edu.fcps.karel2.Display;
 	/**
 	 * Represents a farmer capable of sowing or reaping beepers from a rectangular garden
 	 *
