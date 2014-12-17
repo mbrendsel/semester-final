@@ -16,12 +16,11 @@ public class TestChallenge1 {
 		// TODO Create a Sentry and have it patrol clockwise around the beepers, indefinitely
 		
 		Display.openDefaultWorld();
-        Display.setSize(10, 10);
-        Display.setSpeed(10);
+        	Display.setSize(10, 10);
+        	Display.setSpeed(10);
         
         Squarebot walter = new Squarebot(9, 3);
         Sentry sam = new Sentry();
-       
         walter.layCorners(5);
         sam.patrol();
 		
