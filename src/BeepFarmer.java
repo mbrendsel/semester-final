@@ -12,7 +12,6 @@ import org.asl.karelx.Farmer;
 		
 		public BeepFarmer(){
 			super (1,1,0);
-			
 		}
 		
 		/**
@@ -26,12 +25,10 @@ import org.asl.karelx.Farmer;
 		 * Ex. reap(7, 4) should gather all beepers from an area 7 rows wide and 4 rows tall
 		 */
 		public void reap(int width, int height) {
-			// TODO You implement this
 			teleport(width, height);
 			for(int i = 0; i <= 5; i ++){
 				while(nextToABeeper()){
-					pickBeeper();
-					
+					pickBeeper()
 				}
 					if(frontIsClear()){
 						move();
